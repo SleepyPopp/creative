@@ -157,7 +157,7 @@ public interface SpecialRender extends Examinable {
     }
 
     /**
-     * Returns a player head special renderer. Which renders a player head.
+     * Returns a player head special renderer which renders a player head using the item profile component.
      *
      * @return A player head special renderer
      * @since 1.8.4
