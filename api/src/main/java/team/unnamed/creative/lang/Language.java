@@ -121,7 +121,7 @@ public interface Language extends ResourcePackPart, Keyed, Examinable {
      * the key is the translation key (yeah) and the value is the actual translation,
      * in example, there could be a translation for the Stone block
      *
-     * <p>"block.minecraft.stone" &rarr; "Stone"</p>
+     * <p>"block.minecraft.stone" -> "Stone"</p>
      *
      * @return The language translations
      * @since 1.0.0
