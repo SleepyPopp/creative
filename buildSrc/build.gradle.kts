@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     `kotlin-dsl`
 }
@@ -15,8 +17,8 @@ tasks {
         options.release.set(8)
     }
     compileKotlin {
-        kotlinOptions {
-            jvmTarget = "1.8"
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_1_8)
         }
     }
 }
