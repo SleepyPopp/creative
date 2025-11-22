@@ -10,17 +10,7 @@ val releaseRepository: String by project
 
 publishing {
     repositories {
-        maven {
-            val snapshot = project.version.toString().endsWith("-SNAPSHOT")
-
-            name = repositoryName
-            url = if (snapshot) {
-                uri(snapshotRepository)
-            } else {
-                uri(releaseRepository)
-            }
-            credentials(PasswordCredentials::class)
-        }
+        mavenLocal()
     }
     publications {
         create<MavenPublication>("maven") {
@@ -50,12 +40,5 @@ publishing {
                 }
             }
         }
-    }
-}
-
-signing {
-    val isJitpack = System.getenv("JITPACK") != null
-    if (!isJitpack) {
-        sign(publishing.publications["maven"])
     }
 }
