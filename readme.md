@@ -3,6 +3,10 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](license.txt)
 [![Discord](https://img.shields.io/discord/683899335405994062)](https://discord.gg/xbba2fy)
 
+> [!WARNING]
+> This repository contains code that was generated or assisted by artificial intelligence tools.
+> Users should review and validate all code before use, especially in production environments.
+
 A resource-pack library for Minecraft: Java Edition, the resource pack system
 provides a way to customize textures, models, sounds, translations, splashes,
 credits, and fonts without modifying the default Minecraft client
