@@ -83,7 +83,7 @@ public interface ResourcePack extends ResourceContainer {
 
     /**
      * Returns the resource-pack icon
-     * in <b>PNG</b> format
+     * in <bold>PNG</bold> format
      *
      * @return The resource-pack icon
      * @since 1.0.0
@@ -92,7 +92,7 @@ public interface ResourcePack extends ResourceContainer {
 
     /**
      * Sets the resource-pack icon
-     * in <b>PNG</b> format
+     * in <bold>PNG</bold> format
      *
      * @param icon The resource-pack icon
      * @since 1.0.0
