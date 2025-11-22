@@ -1,7 +1,7 @@
 # creative
-[![Build Status](https://img.shields.io/github/actions/workflow/status/unnamed/creative/build.yml?branch=main)](https://github.com/unnamed/creative/actions/workflows/build.yml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/SleepyPopp/creative/build.yml?branch=main)](https://github.com/SleepyPopp/creative/actions/workflows/build.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](license.txt)
-[![Discord](https://img.shields.io/discord/683899335405994062)](https://discord.gg/xbba2fy)
+[![Discord](https://img.shields.io/discord/1133870320814653512)](https://discord.gg/bZTGRmY9Ce)
 
 > [!WARNING]
 > This repository contains code that was generated or assisted by artificial intelligence tools.
