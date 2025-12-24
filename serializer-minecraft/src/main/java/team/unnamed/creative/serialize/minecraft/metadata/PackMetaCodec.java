@@ -60,8 +60,15 @@ final class PackMetaCodec implements MetadataPartCodec<PackMeta> {
 
     @Override
     public @NotNull PackMeta read(final @NotNull JsonObject node) {
-        final int singleFormat = node.get("pack_format").getAsInt();
+        final int singleFormat;
         final PackFormat format;
+
+        if (node.has("pack_format")) {
+            singleFormat = node.get("pack_format").getAsInt();
+        } else {
+            singleFormat = node.get("min_format").getAsInt();
+        }
+
         if (node.has("supported_formats")) { // since Minecraft 1.20.2 (pack format 18)
             JsonElement el = node.get("supported_formats");
             format = PackFormatSerializer.deserialize(el, singleFormat);
